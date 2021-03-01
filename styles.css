@@ -1,6 +1,5 @@
 body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+background-color: black;
 }
 
 .video-container {
@@ -12,17 +11,17 @@ body {
     animation: reveal 3000ms ease-in-out forwards 200ms,
     glow 2500ms linear infinite 2000ms;
     position: absolute;
-    top: 28%;
-    left: 20%;
+    top: 200px;
+    left: 300px;
     font-size: 75px;
     color: #ccc;
     font-weight: 200;
 }
 .header-subtext {
     position: absolute;
-    top: 40%;
+    top: 305px;
     line-height: 1;
-    left: 20%;
+    left: 300px;
     color: #ccc;
     font-size: 50px;
     font-weight: 100;
